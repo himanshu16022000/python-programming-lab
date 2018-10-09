@@ -6,11 +6,10 @@ def Armn (x):
          sum+=d**3
          t=t//10
     if sum==x:
-       return "armstrong number"
+       print( "armstrong number")
     else:
-       return "not a armstrong number"
-x=int(input())
-print(Armn(x))
+       print( "not a armstrong number")
+
 
    
 
